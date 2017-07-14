@@ -1,42 +1,128 @@
-*{
+/* RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+* {
 	font-family: 'Roboto', sans-serif;
 	background-color: #414143;
 }
+#inicio{
+	min-height: 100vh;
+}
 
-.logo {
-	margin: 3em;
-	width: 150px;
+.logo {  
+  margin-left: 85px;
+  width: 140px;
+  margin-top: 96px;
 }
 
 h1#logo-name {
-	color: #FCAD00;
-	font-size: 40px;
-	margin-top: 10px;
-
+  color: #FCAD00;
+  font-size: 40px;
+  max-width: 70%;
+  margin-left: 40px;
+  margin-bottom: 86px;
+  margin-top: 20px;
 }
 
 .container-form {
 	background-color: #FFF;
 	color: #a2a2a2;
 }
-
-.form-group{
-	padding-left: 40px;
+.input-pass {
+	margin-top: 0px;
 }
 
 .form-control {
-  display: block;
-  width: 290px;
-  height: 55px;
-  padding-bottom: 21px;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #555;
-  background-color: #fff;
-  background-image: none;
-  top:0px;
+    display: block;
+    width: 100%;
+    height: 63px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 0px;
 }
 
-h4 {
+#inputEmail3{
+  margin-top: -16px;
+}
+
+.input-pass{
+	margin-top: -18px
+}
+
+.logIn{
+	margin-top: -16px;
+}
+
+.btn {
+    display: inline-block;
+    width: 100%;
+    height: 57px;
+    padding: 20px 20px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    background-color: #FCAD00;
+    color: #FFF;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    border-radius: 0px;    
+}
+
+.btn-default:hover, .open>.dropdown-toggle.btn-default {
+    color:#fff;
+    background-color: #fed136;
+    border-color: transparent;
+}
+
+a.forgotten{
 	color: #FFF;
+	margin-right: 160px;
+}
+
+a.forgotten:focus, a:hover {
+  color: #FFF;
+  text-decoration: underline;
+}
+
+p.noAcc{
+	color: #FFF;
+	margin-right: 20px;
+}
+
+a.register {
+	color: #fcad00;
+}
+a.register:focus, a:hover {
+  color: #FFF;
+  text-decoration: underline;
 }
