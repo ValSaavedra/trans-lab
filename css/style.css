@@ -24,12 +24,15 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+/*INDEX*/
+
 * {
 	font-family: 'Roboto', sans-serif;
-	background-color: #414143;
 }
+
 #inicio{
 	min-height: 100vh;
+	background-color: #414143;
 }
 
 .logo {  
@@ -111,7 +114,7 @@ a.forgotten{
 
 a.forgotten:focus, a:hover {
   color: #FFF;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 p.noAcc{
@@ -124,5 +127,132 @@ a.register {
 }
 a.register:focus, a:hover {
   color: #FFF;
-  text-decoration: underline;
+  text-decoration: none;
+}
+/* FIN INDEX*/
+
+/*OPCIONES*/
+
+.navbar-default {
+    background-color: #3E3F41;
+    color: #fff;
+    border: none;
+    margin: 0;
+}
+.navbar-brand {
+    float: none;
+    height: inherit;
+    text-align: center;
+    display: block;
+}
+.navbar-toggle {
+    position: absolute;
+    left: 0;
+    margin: 8px 15px;
+}
+.navbar-default .navbar-toggle {
+    border: none;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.navbar-collapse{
+    position: absolute;
+    width: 70vw;
+    background-color: #fff;
+    height: 100vh;
+    top: 0;
+    box-shadow: rgba(0, 0, 0, 0.50) 30vh 0px;
+    z-index: 100;
+}
+.navbar-nav {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.navbar-nav>li>a {
+	display: flex;
+	align-items: center;
+    padding: 15px;
+}
+.navbar-nav a span {
+    color: #F6A800;
+    font-size: 24px;
+    width: 40px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+
+}
+
+.btn {
+    display: inline-block;
+    width: 100%;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    background-color:#f6a800 ;
+    color:#FFF;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    
+}
+
+.btn-default:hover, .open>.dropdown-toggle.btn-default {
+    color:#f6a800;
+    background-color:#3e3f41;
+    border-color: transparent;
+}
+
+li.navbar-nav{
+	background-color: #FFF;
+}
+
+a.navLinks{
+	color: #a2a2a2;
+	text-decoration: none;
+}
+
+.btn:hover{
+    background-color:#3e3f41;
+}
+
+a.btn-block{
+	text-decoration: none;
+	color: #FFF;
+}
+
+a.btn-block:focus, a:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+
+#home{
+	background-color: #DCDDDF;
+	min-height: 100vh;
+}
+
+ul.option-btns{
+	margin-top: 10rem;
+      
+}
+
+.option-btns{
+	margin-top: 14rem;
+   list-style:none;
+   
 }
